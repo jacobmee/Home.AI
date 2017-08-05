@@ -1,0 +1,5 @@
+To: admin@mitang.me
+From: MiTang.Server <do@mitang.me>
+Subject: Certificates Renewal
+Hi, there
+Certbot just renewed your mail.mitang.me certificates successfully.  This certificates will have 90 days validation, so please enjoy.
