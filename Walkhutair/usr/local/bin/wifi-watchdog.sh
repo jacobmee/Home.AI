@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
+
 ping -c4 192.168.0.1 > /dev/null
 
-if [ $? != 0 ]
-then
+if [ $? -eq 0 ]; then
+  logger "Network is good."
+else
   logger "================================================="
   logger "      NO WI-FI connection, restarting wlan0"
   logger "================================================="
